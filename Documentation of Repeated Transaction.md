@@ -16,8 +16,45 @@ Transactions above Rs. 10000 are flagged as suspicious.
 4. Check amounts above Rs. 10000.
 5. Display suspicious transactions.
 
-## 5. Flowchart (Text Representation)
-Start → Enter transactions → Check duplicate IDs → Check transaction amount → Display suspicious records → End.
+## 5. Flowchart 
+              .---------------.
+             /                 \
+            (      START        )
+             \_________________/
+                     |
+                     v
+               /-------------/
+              / Enter       /
+             / transactions/
+             \-------------/
+                     |
+                     v
+                  /---------\
+                 /  Check    \
+                <  duplicate  >
+                <     IDs?    >
+                 \           /
+                  \---------/
+                     |
+                     v
+                  /---------\
+                 /  Check    \
+                < transaction>
+                <  amount?   >
+                 \           /
+                  \---------/
+                     |
+                     v
+               /-----------------/
+              / Display           /
+             / suspicious records/
+             \-----------------/
+                     |
+                     v
+              .---------------.
+             /                 \
+            (        END        )
+             \_________________/
 
 ## 6. Pseudocode
 ```text
