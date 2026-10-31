@@ -16,8 +16,49 @@ Purchases above Rs. 5000 receive a 10% discount.
 4. Calculate the final bill.
 5. Display the invoice.
 
-## 5. Flowchart (Text Representation)
-Start → Enter product details → Calculate total → Check discount → Calculate final bill → Display invoice → End.
+## 5. Flowchart
+              .---------------.
+             /                 \
+            (      START        )
+             \_________________/
+                     |
+                     v
+               /-------------/
+              / Enter       /
+             / product      /
+            / details       /
+            \-------------/
+                     |
+                     v
+           +---------------------+
+           | Calculate total     |
+           +---------------------+
+                     |
+                     v
+                 /---------\
+                /  Check    \
+               <  discount   >
+               <  eligible?  >
+                \           /
+                 \---------/
+                     |
+                     v
+           +---------------------+
+           | Calculate final     |
+           | bill                |
+           +---------------------+
+                     |
+                     v
+               /-------------/
+              / Display     /
+             / invoice     /
+             \-------------/
+                     |
+                     v
+              .---------------.
+             /                 \
+            (        END        )
+             \_________________/
 
 ## 6. Pseudocode
 ```text
