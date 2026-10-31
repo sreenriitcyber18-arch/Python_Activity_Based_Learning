@@ -17,8 +17,44 @@ A valid password must have at least 8 characters, one uppercase letter, one lowe
 5. Check numbers.
 6. Display the validation result.
 
-## 5. Flowchart (Text Representation)
-Start → Enter password → Check length → Check character types → Display valid or invalid → End.
+## 5. Flowchart 
+             .---------------.
+            /                 \
+           (      START        )
+            \_________________/
+                    |
+                    v
+              /-------------/
+             / Enter       /
+            / password    /
+            \-------------/
+                    |
+                    v
+                /---------\
+               / Check     \
+              <  length?    >
+               \           /
+                \---------/
+                    |
+                    v
+                /---------\
+               / Check     \
+              < character   >
+              <  types?     >
+               \           /
+                \---------/
+                    |
+                    v
+          +----------------------+
+          | Display VALID or     |
+          | INVALID              |
+          +----------------------+
+                    |
+                    v
+             .---------------.
+            /                 \
+           (        END        )
+            \_________________/
 
 ## 6. Pseudocode
 ```text
