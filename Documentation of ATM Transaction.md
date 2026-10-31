@@ -16,8 +16,47 @@ The initial account balance is Rs. 5000.
 4. Reject invalid withdrawals.
 5. Display the final balance.
 
-## 5. Flowchart (Text Representation)
-Start → Set initial balance → Enter transaction count → Process each deposit or withdrawal → Update balance or show error → Display final balance → End.
+## 5. Flowchart 
+             .---------------.
+           /                   \
+          (       START         )
+           \___________________/
+                    |
+                    v
+             /----------------\
+            / Set initial      /
+           / balance          /
+           \----------------\
+                    |
+                    v
+             /----------------\
+            / Enter transaction/
+           / count            /
+           \----------------\
+                    |
+                    v
+          +----------------------+
+          | Process each deposit |
+          | or withdrawal        |
+          +----------------------+
+                    |
+                    v
+             /------------------\
+            / Update balance or  /
+           / show error         /
+           \------------------/
+                    |
+                    v
+             /------------------\
+            / Display final      /
+           / balance            /
+           \------------------/
+                    |
+                    v
+             .---------------.
+           /                   \
+          (         END         )
+           \___________________/
 
 ## 6. Pseudocode
 ```text
