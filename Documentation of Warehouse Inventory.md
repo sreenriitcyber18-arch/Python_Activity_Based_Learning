@@ -17,8 +17,42 @@ Minimum required stock is 10 units.
 5. Calculate closing stock.
 6. Check the minimum stock level.
 
-## 5. Flowchart (Text Representation)
-Start → Enter stock details → Calculate closing stock → Check stock level → Display result → End.
+## 5. Flowchart 
+             .----------------.
+            /                  \
+           (       START        )
+            \__________________/
+                    |
+                    v
+              /-------------/
+             / Enter stock /
+            / details     /
+            \-------------/
+                    |
+                    v
+          +----------------------+
+          | Calculate closing   |
+          | stock               |
+          +----------------------+
+                    |
+                    v
+                /-----------\
+               / Check stock \
+              <    level?     >
+               \             /
+                \-----------/
+                    |
+                    v
+              /-------------/
+             / Display     /
+            / result      /
+            \-------------/
+                    |
+                    v
+             .----------------.
+            /                  \
+           (        END         )
+            \__________________/
 
 ## 6. Pseudocode
 ```text
