@@ -17,7 +17,46 @@ Each participant pays Rs. 500.
 5. Calculate the minimum number of participants required.
 
 ## 5. Flowchart (Text Representation)
-Start → Input expenses → Calculate total → Subtract sponsorship → Calculate participants → Display result → End.
+       _____________
+     /               \
+    (      START      )
+     \_______________/
+             |
+             v
+        /-----------/
+       / Input      /
+      / expenses   /
+      \-----------\
+             |
+             v
+      +------------------+
+      | Calculate total  |
+      | expenses         |
+      +------------------+
+             |
+             v
+      +------------------+
+      | Subtract         |
+      | sponsorship      |
+      +------------------+
+             |
+             v
+      +------------------+
+      | Calculate        |
+      | participants     |
+      +------------------+
+             |
+             v
+        /-----------/
+       / Display   /
+      / result    /
+      \-----------\
+             |
+             v
+       _____________
+     /               \
+    (       END       )
+     \_______________/
 
 ## 6. Pseudocode
 ```text
