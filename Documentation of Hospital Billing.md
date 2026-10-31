@@ -16,8 +16,47 @@ Senior citizens aged 60 or above receive a 10% discount.
 4. Apply the discount if eligible.
 5. Display the final bill.
 
-## 5. Flowchart (Text Representation)
-Start → Input charges and age → Calculate total → Check age → Apply discount → Display bill → End.
+## 5. Flowchart 
+              .---------------.
+             /                 \
+            (      START        )
+             \_________________/
+                     |
+                     v
+              /-------------/
+             / Input charges/
+            / and age      /
+            \-------------/
+                     |
+                     v
+           +--------------------+
+           | Calculate total    |
+           +--------------------+
+                     |
+                     v
+                 /-------\
+                /  Age    \
+               <  check?   >
+                \         /
+                 \-------/
+                     |
+                     v
+           +--------------------+
+           | Apply discount     |
+           +--------------------+
+                     |
+                     v
+              /-------------/
+             / Display bill /
+            /              /
+            \-------------/
+                     |
+                     v
+              .---------------.
+             /                 \
+            (       END         )
+             \_________________/
+
 
 ## 6. Pseudocode
 ```text
