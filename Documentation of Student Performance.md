@@ -16,8 +16,47 @@ The passing mark is 40.
 4. Compare first and last examination marks.
 5. Display performance.
 
-## 5. Flowchart (Text Representation)
-Start → Enter marks → Calculate average → Compare marks → Classify performance → Check pass/fail → End.
+## 5. Flowchart 
+              .----------------.
+             /                  \
+            (       START        )
+             \__________________/
+                     |
+                     v
+               /-------------/
+              / Enter marks /
+             /              /
+             \-------------/
+                     |
+                     v
+           +----------------------+
+           | Calculate average    |
+           +----------------------+
+                     |
+                     v
+                 /---------\
+                / Compare   \
+               <   marks?    >
+                \           /
+                 \---------/
+                     |
+                     v
+           +----------------------+
+           | Classify performance |
+           +----------------------+
+                     |
+                     v
+                 /---------\
+                / Check     \
+               <  pass/fail? >
+                \           /
+                 \---------/
+                     |
+                     v
+              .----------------.
+             /                  \
+            (        END         )
+             \__________________/
 
 ## 6. Pseudocode
 ```text
