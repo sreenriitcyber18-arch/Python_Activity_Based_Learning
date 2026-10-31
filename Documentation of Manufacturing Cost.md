@@ -17,8 +17,47 @@ The profit target is Rs. 5000.
 5. Calculate selling price and profit.
 6. Check the profit target.
 
-## 5. Flowchart (Text Representation)
-Start → Input costs → Calculate total cost → Calculate profit → Check target → Display result → End.
+## 5. Flowchart
+             .---------------.
+            /                 \
+           (      START        )
+            \_________________/
+                    |
+                    v
+              /-------------/
+             / Input costs /
+            /             /
+            \-------------/
+                    |
+                    v
+          +---------------------+
+          | Calculate total     |
+          | cost                |
+          +---------------------+
+                    |
+                    v
+          +---------------------+
+          | Calculate profit    |
+          +---------------------+
+                    |
+                    v
+                /---------\
+               / Check    \
+              <  target?   >
+               \           /
+                \---------/
+                    |
+                    v
+              /-------------/
+             / Display      /
+            / result       /
+            \-------------/
+                    |
+                    v
+             .---------------.
+            /                 \
+           (        END        )
+            \_________________/
 
 ## 6. Pseudocode
 ```text
