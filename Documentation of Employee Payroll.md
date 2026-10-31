@@ -16,8 +16,49 @@ HRA = 20% of basic salary, DA = 10% of basic salary, and deduction = 5% of gross
 4. Calculate the deduction.
 5. Display net salary.
 
-## 5. Flowchart (Text Representation)
-Start → Input basic salary → Calculate allowances → Calculate gross salary → Calculate deductions → Display net salary → End.
+## 5. Flowchart 
+              _____________
+             /             \
+            /     START     \
+            \               /
+             \_____________/
+                    |
+                    v
+              /-------------/
+             / Input basic  /
+            / salary       /
+            \-------------/
+                    |
+                    v
+          +---------------------+
+          | Calculate           |
+          | allowances          |
+          +---------------------+
+                    |
+                    v
+          +---------------------+
+          | Calculate gross     |
+          | salary              |
+          +---------------------+
+                    |
+                    v
+          +---------------------+
+          | Calculate           |
+          | deductions          |
+          +---------------------+
+                    |
+                    v
+              /-------------/
+             / Display net  /
+            / salary       /
+            \-------------/
+                    |
+                    v
+              _____________
+             /             \
+            /      END      \
+            \               /
+             \_____________/
 
 ## 6. Pseudocode
 ```text
